@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 49.44,
+        "lng": -55.11
+    },
+    "accuracy": 50,
+    "name": "House of Hoops",
+    "phone_number": "805-111-1111",
+    "address": "123 Big Street",
+    "types": [
+        "The Trap",
+        "Goodies"
+    ],
+    "website": "www.nonktube.com",
+    "language": "English"
+}
+HTTP/1.1 200 OK
+Date: Sun, 19 Apr 2020 22:55:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "759cf28b154b2694431ce23fff951d74",
+    "scope": "APP",
+    "reference": "99296bb6023e29551cbd55eb5e9f8d3999296bb6023e29551cbd55eb5e9f8d39",
+    "id": "99296bb6023e29551cbd55eb5e9f8d39"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=759cf28b154b2694431ce23fff951d74
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=759cf28b154b2694431ce23fff951d74
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sun, 19 Apr 2020 22:55:15 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 228
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "49.44",
+        "longitude": "-55.11"
+    },
+    "accuracy": "50",
+    "name": "House of Hoops",
+    "phone_number": "805-111-1111",
+    "address": "123 Big Street",
+    "types": "The Trap,Goodies",
+    "website": "www.nonktube.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "759cf28b154b2694431ce23fff951d74"
+}
+HTTP/1.1 200 OK
+Date: Sun, 19 Apr 2020 22:55:17 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
